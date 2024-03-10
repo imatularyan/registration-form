@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eaf4fd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 {
+  width: 30%;
+  font-size: larger;
+  padding: 5cqw 0rem 0rem 8rem;
+  line-height: 18px;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+.div-1 > .heading {
+  color: #0058e7;
+  font-weight: 600;
+}
+
+.div-2 {
+  width: 70%;
+  display: flex;
+  justify-content: start;
+  padding: 5rem 8rem 0rem 0rem;
+}
+
+.div-2-wrapper {
+  width: 60%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 1px 1px 15px lightgray;
+}
+
+.form-heading {
+  width: 100%;
+  border-radius: 24px 24px 0px 0px;
+  text-align: center;
+}
+
+.form-heading > h2 {
+  /* font-size: large; */
+}
+
+.submit-btn {
+  height: 3rem;
+  background-color: #0058e7;
+  color: white;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.message-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  padding: 8px;
+  border-radius: 24px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+.success {
+  background-color: #b8e4d029;
+}
+
+.error {
+  background-color: #e4b6b62c;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.message-content > .content-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+  line-height: 1px;
+}
+
+.message-content > .content-box > .heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.message-content > .content-box > .content {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  line-height: 5px;
+  font-size: large;
+}

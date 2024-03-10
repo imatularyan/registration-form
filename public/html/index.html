@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <div class="form-wrapper">
+      <!--First divison-->
+      <div class="div-1">
+        <h1 class="heading">Sign Up</h1>
+        <h1>registration</h1>
+        <h1>form</h1>
+      </div>
+      <!--Second divison-->
+      <div class="div-2">
+        <div class="div-2-wrapper">
+          <div class="form-heading">
+            <h2>Sign Up</h2>
+            <p>Fill out the form carefully for registration</p>
+          </div>
+          <!--Form-->
+          <form class="" method="post" action="/register">
+            <div class="">
+              <label for="username" class="">Username</label>
+              <input type="text" class="" id="username" name="username" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="">Email address</label>
+              <input
+                type="email"
+                class=""
+                id="email"
+                aria-describedby="emailHelp"
+                name="email"
+              />
+              <div id="emailHelp" class="" style="font-size: smaller">
+                We'll never share your email with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="">Password</label>
+              <input type="password" class="" id="password" name="password" />
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
