@@ -177,3 +177,17 @@ body {
   line-height: 5px;
   font-size: large;
 }
+
+.error-btn {
+  padding: 14px 16px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.error-btn:hover {
+  background-color: rgb(32, 159, 153);
+}
