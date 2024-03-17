@@ -58,7 +58,7 @@ The Registration Form project is a web application that allows users to sign up 
 1. **Clone the repository**
 
 ```sh
-git clone https://github.com/your-username/registration-form.git
+git clone https://github.com/imatularyan/registration-form.git
 cd registration-form
 ```
 
@@ -81,8 +81,8 @@ Create a `.env` file in the server directory and add the following variables:
 ```
 MONGODB_USERNAME=yourMongoDBUsername
 MONGODB_PASSWORD=yourMongoDBPassword
-DATABASE_NAME=registrationDB
-PORT=5000
+DATABASE_NAME=yourMongoDBName
+PORT=8000
 ```
 
 4. **Start the server**
