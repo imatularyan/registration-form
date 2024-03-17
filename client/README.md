@@ -12,10 +12,21 @@ The Registration Form project is a web application that allows users to sign up 
 
 ## Technology Stack
 
-- **Frontend:** React
-- **Styling:** Tailwind CSS
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
+### Frontend
+
+**React** is used for building the user interface. Its component-based architecture makes it ideal for developing complex user interfaces like our registration form.
+
+### Styling
+
+**Tailwind CSS** is used for styling due to its utility-first approach, making it easy to design a responsive and visually appealing UI without writing custom CSS.
+
+### Backend
+
+**Node.js** and **Express** provide a scalable and efficient server environment. Express simplifies routing and request handling, making it suitable for our application's backend structure.
+
+### Database
+
+**MongoDB** offers a flexible, document-oriented database system. It's used for storing user registration data, chosen for its scalability and ease of use with JSON-like documents.
 
 ## Project Structure
 
@@ -50,7 +61,8 @@ The Registration Form project is a web application that allows users to sign up 
     ├── .gitignore
     ├── app.js
     ├── package-lock.json
-    └── package.json
+    ├── package.json
+    └── README.md
 ```
 
 ## Installation
@@ -58,7 +70,7 @@ The Registration Form project is a web application that allows users to sign up 
 1. **Clone the repository**
 
 ```sh
-git clone https://github.com/imatularyan/registration-form.git
+git clone https://github.com/your-username/registration-form.git
 cd registration-form
 ```
 
@@ -81,8 +93,8 @@ Create a `.env` file in the server directory and add the following variables:
 ```
 MONGODB_USERNAME=yourMongoDBUsername
 MONGODB_PASSWORD=yourMongoDBPassword
-DATABASE_NAME=yourMongoDBName
-PORT=8000
+DATABASE_NAME=registrationDB
+PORT=5000
 ```
 
 4. **Start the server**
@@ -112,3 +124,5 @@ Contributions to the Registration Form project are welcome. Please follow these 
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
+
+---
