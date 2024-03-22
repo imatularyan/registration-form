@@ -1,3 +1,5 @@
+import { ForgotPassword } from "./components/ForgotPassword";
+import { ResetPassword } from "./components/ResetPassword";
 import Layout from "./components/Layout";
 import SignInForm from "./components/SigninForm";
 import SignupForm from "./components/SignupForm";
@@ -23,9 +25,16 @@ export const router = createBrowserRouter([
         path: "signin",
         element: <SignInForm />,
       },
+      {
+        path: "forgot-password",
+        element: <ForgotPassword />,
+      },
+      {
+        path: "reset-password",
+        element: <ResetPassword />,
+      },
     ],
   },
 ]);
-
 
 export default App;

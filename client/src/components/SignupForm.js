@@ -19,7 +19,7 @@ const Signup = () => {
     e.preventDefault();
     const { name, username, email, password, cpassword } = user;
 
-    const res = await fetch("/register", {
+    const res = await fetch("/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -58,7 +58,7 @@ const Signup = () => {
           </div>
         </section>
         <section className="bg-white flex-grow p-4 flex flex-col overflow-auto h-auto justify-center w-full">
-          <main className=" flex flex-grow m-0 p-0">
+          <main className="flex flex-grow items-center justify-start m-0 p-0 min-w-[960px] max-w-[1200px]">
             <div className="ml-[100px] mt-20 px-[60px] w-[536px] h-fit text-[#0d0c22]">
               <h2 className=" font-bold text-2xl">Sign Up to Website</h2>
               <div className="m-0 p-0">
